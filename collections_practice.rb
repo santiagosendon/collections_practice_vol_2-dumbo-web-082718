@@ -44,3 +44,5 @@ def organize_schools(schools)
     schools.collect {|k,v| locations_hash[v[:location]] = []}
     locations_hash.each {|k,v| schools.each {|k1,v1| if k == v1[:location] then v << k1  end}}
 end
+
+return el plusif 22 equal
